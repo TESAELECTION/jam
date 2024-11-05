@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "D:/BE42359/ALU4/ALU4.xst" -ofn "D:/BE42359/ALU4/ALU4.syr" 
+xst -intstyle ise -ifn "D:/BE42359/ALU4/ALU4.xst" -ofn "D:/BE42359/ALU4/ALU4.syr" 
+xst -intstyle ise -ifn "D:/BE42359/ALU4/ALU4.xst" -ofn "D:/BE42359/ALU4/ALU4.syr" 
+xst -intstyle ise -ifn "D:/BE42359/ALU4/ALU4.xst" -ofn "D:/BE42359/ALU4/ALU4.syr" 
+xst -intstyle ise -ifn "D:/BE42359/ALU4/ALU4.xst" -ofn "D:/BE42359/ALU4/ALU4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-pq208-4 ALU4.ngc ALU4.ngd  
+map -intstyle ise -p xc3s250e-pq208-4 -cm area -ir off -pr off -c 100 -o ALU4_map.ncd ALU4.ngd ALU4.pcf 
+par -w -intstyle ise -ol high -t 1 ALU4_map.ncd ALU4.ncd ALU4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ALU4.twx ALU4.ncd -o ALU4.twr ALU4.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alu4.ucf -p xc3s250e-pq208-4 ALU4.ngc ALU4.ngd  
+map -intstyle ise -p xc3s250e-pq208-4 -cm area -ir off -pr off -c 100 -o ALU4_map.ncd ALU4.ngd ALU4.pcf 
+par -w -intstyle ise -ol high -t 1 ALU4_map.ncd ALU4.ncd ALU4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ALU4.twx ALU4.ncd -o ALU4.twr ALU4.pcf -ucf alu4.ucf 
+bitgen -intstyle ise -f ALU4.ut ALU4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alu4.ucf -p xc3s250e-pq208-4 ALU4.ngc ALU4.ngd  
+map -intstyle ise -p xc3s250e-pq208-4 -cm area -ir off -pr off -c 100 -o ALU4_map.ncd ALU4.ngd ALU4.pcf 
+par -w -intstyle ise -ol high -t 1 ALU4_map.ncd ALU4.ncd ALU4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ALU4.twx ALU4.ncd -o ALU4.twr ALU4.pcf -ucf alu4.ucf 
+bitgen -intstyle ise -f ALU4.ut ALU4.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc alu4.ucf -p xc3s250e-pq208-4 ALU4.ngc ALU4.ngd  
+map -intstyle ise -p xc3s250e-pq208-4 -cm area -ir off -pr off -c 100 -o ALU4_map.ncd ALU4.ngd ALU4.pcf 
+par -w -intstyle ise -ol high -t 1 ALU4_map.ncd ALU4.ncd ALU4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ALU4.twx ALU4.ncd -o ALU4.twr ALU4.pcf -ucf alu4.ucf 
+bitgen -intstyle ise -f ALU4.ut ALU4.ncd 
+bitgen -intstyle ise -f ALU4.ut ALU4.ncd 

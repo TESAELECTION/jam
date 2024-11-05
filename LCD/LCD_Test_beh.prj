@@ -1,0 +1,2 @@
+vhdl work "LCD.vhd"
+vhdl work "LCD_FSM_tb.vhd"

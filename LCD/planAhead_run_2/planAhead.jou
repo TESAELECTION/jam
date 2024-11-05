@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Fri Oct 11 02:43:43 2024
+# Process ID: 3240
+# Log file: D:/Sara_42259/Codes/LCD/planAhead_run_2/planAhead.log
+# Journal file: D:/Sara_42259/Codes/LCD/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Sara_42259/Codes/LCD/pa.fromNetlist.tcl

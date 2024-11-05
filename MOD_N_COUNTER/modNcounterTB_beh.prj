@@ -1,0 +1,2 @@
+vhdl work "MOD_N_COUNTER.vhd"
+vhdl work "modNcounterTB.vhd"

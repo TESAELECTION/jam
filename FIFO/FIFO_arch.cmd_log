@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/BE42359/FIFO/FIFO_arch.xst" -ofn "D:/BE42359/FIFO/FIFO_arch.syr" 
+xst -intstyle ise -ifn "D:/BE42359/FIFO/FIFO_arch.xst" -ofn "D:/BE42359/FIFO/FIFO_arch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s250e-pq208-4 FIFO_arch.ngc FIFO_arch.ngd  
+map -intstyle ise -p xc3s250e-pq208-4 -cm area -ir off -pr off -c 100 -o FIFO_arch_map.ncd FIFO_arch.ngd FIFO_arch.pcf 
+par -w -intstyle ise -ol high -t 1 FIFO_arch_map.ncd FIFO_arch.ncd FIFO_arch.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FIFO_arch.twx FIFO_arch.ncd -o FIFO_arch.twr FIFO_arch.pcf 

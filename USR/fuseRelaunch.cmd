@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/VLSI A/USR/usr_tb_isim_beh.exe" -prj "E:/VLSI A/USR/usr_tb_beh.prj" "work.usr_tb" 

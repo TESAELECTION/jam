@@ -1,0 +1,14 @@
+NET "mode[1]" LOC = P205;
+NET "mode[0]" LOC = P206;
+NET "pin[3]" LOC = P192;
+NET "pin[2]" LOC = P193;
+NET "pin[1]" LOC = P189;
+NET "pin[0]" LOC = P190;
+NET "pout[3]" LOC = P179;
+NET "pout[2]" LOC = P180;
+NET "pout[1]" LOC = P177;
+NET "pout[0]" LOC = P178;
+NET "clk" LOC = P132;
+NET "rst" LOC = P204;
+NET "sin" LOC = P163;
+NET "sout" LOC = P164;

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/BE42359/MOD_N_COUNTER/MOD_N_COUNTER.xst" -ofn "D:/BE42359/MOD_N_COUNTER/MOD_N_COUNTER.syr" 
+xst -intstyle ise -ifn "D:/BE42359/MOD_N_COUNTER/MOD_N_COUNTER.xst" -ofn "D:/BE42359/MOD_N_COUNTER/MOD_N_COUNTER.syr" 
+xst -intstyle ise -ifn "D:/BE42359/MOD_N_COUNTER/MOD_N_COUNTER.xst" -ofn "D:/BE42359/MOD_N_COUNTER/MOD_N_COUNTER.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc modncntrPlanAhead.ucf -p xc3s250e-pq208-4 MOD_N_COUNTER.ngc MOD_N_COUNTER.ngd  
+map -intstyle ise -p xc3s250e-pq208-4 -cm area -ir off -pr off -c 100 -o MOD_N_COUNTER_map.ncd MOD_N_COUNTER.ngd MOD_N_COUNTER.pcf 
+par -w -intstyle ise -ol high -t 1 MOD_N_COUNTER_map.ncd MOD_N_COUNTER.ncd MOD_N_COUNTER.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MOD_N_COUNTER.twx MOD_N_COUNTER.ncd -o MOD_N_COUNTER.twr MOD_N_COUNTER.pcf -ucf modncntrPlanAhead.ucf 
+bitgen -intstyle ise -f MOD_N_COUNTER.ut MOD_N_COUNTER.ncd 

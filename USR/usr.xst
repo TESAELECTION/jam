@@ -1,0 +1,5 @@
+set -tmpdir "E:/VLSI A/USR/xst/projnav.tmp"
+set -xsthdpdir "E:/VLSI A/USR/xst"
+elaborate
+-ifn usr.prj
+-ifmt mixed

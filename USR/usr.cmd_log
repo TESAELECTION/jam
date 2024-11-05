@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/BE42359/USR/usr.xst" -ofn "D:/BE42359/USR/usr.syr" 
+xst -intstyle ise -ifn "D:/BE42359/USR/usr.xst" -ofn "D:/BE42359/USR/usr.syr" 
+xst -intstyle ise -ifn "D:/BE42359/USR/usr.xst" -ofn "D:/BE42359/USR/usr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc USR_planAhead.ucf -p xc3s250e-pq208-4 usr.ngc usr.ngd  
+map -intstyle ise -p xc3s250e-pq208-4 -cm area -ir off -pr off -c 100 -o usr_map.ncd usr.ngd usr.pcf 
+par -w -intstyle ise -ol high -t 1 usr_map.ncd usr.ncd usr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml usr.twx usr.ncd -o usr.twr usr.pcf -ucf USR_planAhead.ucf 
+bitgen -intstyle ise -f usr.ut usr.ncd 
+netgen -intstyle ise -ar Structure -tm usr -w -dir netgen/synthesis -ofmt vhdl -sim usr.ngc usr_synthesis.vhd 

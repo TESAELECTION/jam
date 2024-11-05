@@ -1,0 +1,9 @@
+NET "clk" LOC = P132;
+NET "pr" LOC = P204;
+NET "rst" LOC = P194;
+NET "Q[4]" LOC = P205;
+NET "Q[3]" LOC = P206;
+NET "Q[2]" LOC = P203;
+NET "Q[1]" LOC = P200;
+NET "Q[0]" LOC = P202;
+NET "dir" LOC = P196;

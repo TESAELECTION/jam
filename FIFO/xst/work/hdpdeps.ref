@@ -1,0 +1,6 @@
+V3 3
+FL C:/Xilinx/fifo/fifo.vhd 2024/10/09.13:25:55 P.20131013
+EN work/fifo 1728531309 FL C:/Xilinx/fifo/fifo.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/fifo/fifo_arch 1728531310 \
+      FL C:/Xilinx/fifo/fifo.vhd EN work/fifo 1728531309

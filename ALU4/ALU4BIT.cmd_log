@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/BE42359/ALU4/ALU4BIT.xst" -ofn "D:/BE42359/ALU4/ALU4BIT.syr" 

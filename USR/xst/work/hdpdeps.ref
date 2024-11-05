@@ -1,0 +1,7 @@
+V3 4
+FL D:/BE42359/USR/usr.vhd 2024/07/29.06:09:04 P.20131013
+FL "E:/VLSI A/USR/usr.vhd" 2024/07/29.06:09:06 P.20131013
+EN work/usr 1729251461 FL "E:/VLSI A/USR/usr.vhd" PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/usr/Behavioral 1729251462 \
+      FL "E:/VLSI A/USR/usr.vhd" EN work/usr 1729251461

@@ -1,0 +1,36 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/VLSI A/USR/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to E:/VLSI A/USR/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/usr is now defined in a different file.  It was defined in "D:/BE42359/USR/usr.vhd", and is now defined in "E:/VLSI A/USR/usr.vhd".
+WARNING:HDLParsers:3607 - Unit work/usr/Behavioral is now defined in a different file.  It was defined in "D:/BE42359/USR/usr.vhd", and is now defined in "E:/VLSI A/USR/usr.vhd".
+Compiling vhdl file "E:/VLSI A/USR/usr.vhd" in Library work.
+Architecture behavioral of Entity usr is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.85 secs
+ 
+--> 
+
+Total memory usage is 4470672 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
